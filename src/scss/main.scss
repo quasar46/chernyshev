@@ -1,0 +1,20 @@
+@import "../../node_modules/normalize.scss/normalize.scss";
+// @import "../fonts/stylesheet.scss";
+@import "variables.scss";
+@import "base.scss";
+
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/about";
+@import "blocks/key";
+@import "blocks/news-block";
+@import "blocks/practices-block";
+@import "blocks/clients";
+@import "blocks/footer";
+@import "blocks/mobile-menu";
+@import "blocks/burger";
+@import "blocks/partners";
+@import "blocks/practices";
+@import "blocks/news";
+@import "blocks/news-cart";
+@import "blocks/contacts";

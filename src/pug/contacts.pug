@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+	head
+		include modules/head.pug
+	body
+		.content.contacts-page
+			include modules/header.pug
+
+			main
+				.contacts
+					.container
+						.contacts__wrapper
+							h1 Наши офисы
+							.contacts__content
+								h3 Москва
+								ul
+									li
+										a(href="tel:+74952333757") +7 495 233 3757
+									li
+										a(href="mailto:office@clpaw.ru") mailto:office@clpaw.ru
+									li
+										a Фрунзенская набережная, д. 3
+
+
+	include modules/footer.pug
+	include modules/script.pug

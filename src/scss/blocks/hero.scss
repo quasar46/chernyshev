@@ -1,0 +1,33 @@
+.hero {
+	background: linear-gradient(227.86deg, #c4c4c4 -11.25%, #ffffff 89.7%);
+	background-image: url("../images/news-bg__effect.png");
+	background-position: 0 -20px;
+
+	h1 {
+		font-family: $font-playfair;
+		font-size: 36px;
+		color: #131313;
+		line-height: 1.5;
+		letter-spacing: 0.05em;
+		max-width: 610px;
+		width: 100%;
+		margin-top: auto;
+		margin-bottom: auto;
+		@media (max-width: 768px) {
+			font-size: 24px;
+		}
+	}
+}
+
+.hero__wrapper {
+	display: flex;
+	height: 645px;
+	background-image: url("../images/anastasiya-romanova.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	@media (max-width: 500px) {
+		background-position: center;
+		height: 400px;
+		background-size: cover;
+	}
+}

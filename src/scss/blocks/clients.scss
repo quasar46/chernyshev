@@ -1,0 +1,43 @@
+.clients__wrapper {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+	padding: 60px 0;
+	h2 {
+		font-size: 36px;
+		letter-spacing: 0.05em;
+		text-align: center;
+		color: #131313;
+		font-family: $font-playfair;
+		font-weight: 400;
+		margin-bottom: 40px;
+		@media (max-width: 768px) {
+			font-size: 20px;
+		}
+	}
+	p {
+		text-align: center;
+		font-size: 24px;
+		font-family: $font-open;
+		color: #333333;
+		margin-bottom: 30px;
+		@media (max-width: 768px) {
+			font-size: 16px;
+		}
+	}
+}
+
+.clients__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	li {
+		width: calc(100% / 3 - 25px);
+		@media (max-width: 768px) {
+			width: calc(100% / 2 - 25px);
+		}
+	}
+	@media (max-width: 768px) {
+		justify-content: space-around;
+	}
+}

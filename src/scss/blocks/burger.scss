@@ -1,0 +1,20 @@
+.burger {
+	display: none;
+	width: 22px;
+	height: 22px;
+	background-image: url("../images/svg/burger.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	right: 20px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+	&.active {
+		background-image: url("../images/svg/burger-close.svg");
+	}
+	@media (max-width: 768px) {
+		display: block;
+	}
+}

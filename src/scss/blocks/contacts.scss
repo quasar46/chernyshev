@@ -1,0 +1,56 @@
+.contacts {
+	background-image: url("../images/contacts.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: contain;
+	height: 100%;
+}
+
+.contacts__wrapper {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	h1 {
+		font-size: 24px;
+		font-family: $font-playfair;
+		line-height: 1.9;
+		color: $color-red;
+		font-weight: 400;
+	}
+}
+
+.contacts__content {
+	padding-left: 130px;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-image: url("../images/moscow-icon.png");
+		width: 95px;
+		height: 87px;
+	}
+	h3 {
+		font-size: 18px;
+		line-height: 1.9;
+		color: #131313;
+		font-weight: 400;
+		font-family: $font-playfair;
+		margin-bottom: 20px;
+	}
+	ul {
+		li {
+			a {
+				text-decoration: none;
+				line-height: 1.9;
+				color: #000;
+				font-family: $font-open;
+				font-size: 16px;
+			}
+		}
+	}
+	@media (max-width: 768px) {
+		padding-top: 130px;
+		padding-left: 0;
+	}
+}

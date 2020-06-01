@@ -1,0 +1,90 @@
+.practices {
+	background: linear-gradient(186.73deg, #c4c4c4 13.98%, rgba(196, 196, 196, 0) 66.87%);
+	padding-top: 130px;
+	@media (max-width: 768px) {
+		padding-top: 50px;
+	}
+}
+
+.practices__wrapper {
+	h3 {
+		font-size: 36px;
+		color: $color-red;
+		font-family: $font-playfair;
+		padding-left: 30px;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+		margin-bottom: 10px;
+		@media (max-width: 768px) {
+			font-size: 20px;
+		}
+	}
+	li {
+		display: flex;
+		flex-direction: column;
+		height: 450px;
+		margin-bottom: 100px;
+		&:nth-child(1) {
+			background-image: url("../images/maskgroup.png");
+			background-size: 490px auto;
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+		&:nth-child(2) {
+			background-image: url("../images/maskgroup2.png");
+			background-size: 490px auto;
+			background-repeat: no-repeat;
+			background-position: left top;
+			.practices__inner {
+				margin-left: auto;
+			}
+		}
+		&:nth-child(3) {
+			background-image: url("../images/maskgroup3.png");
+			background-size: 490px auto;
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+		@media (max-width: 768px) {
+			margin-bottom: 20px;
+		}
+	}
+	a.button {
+		color: #000;
+		font-weight: 600;
+		background-color: #fff;
+		box-shadow: 0 4px 10px rgba(88, 88, 88, 0.2);
+		border-radius: 15px;
+		padding: 15px 50px;
+		align-self: flex-start;
+		margin-top: auto;
+		font-size: 14px;
+		text-decoration: none;
+		&:hover {
+			box-shadow: 0px 15px 25px rgba(88, 88, 88, 0.15);
+			transition: 0.5s;
+		}
+	}
+}
+
+.practices__text {
+	background-color: #fff;
+	max-width: 600px;
+	width: 100%;
+	padding: 15px 30px;
+	box-shadow: 0px 4px 20px rgba(12, 27, 40, 0.2);
+	margin-bottom: 25px;
+	p {
+		font-size: 14px;
+		line-height: 1.9;
+		font-family: $font-open;
+		color: #333333;
+		@media (max-width: 768px) {
+			font-size: 12px;
+		}
+	}
+	@media (max-width: 768px) {
+		max-width: 100%;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+}
