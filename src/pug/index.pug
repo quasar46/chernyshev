@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+	head
+		include modules/head.pug
+	body
+		.content.index-page
+
+			main
+				a(href="about.html")
+				ul.slick-index
+					li
+						.logo
+							img(src="images/svg/logo.svg", alt="")
+						img(src="images/main-slider/slide1.png" alt="")
+					li
+						.logo
+							img(src="images/svg/logo.svg", alt="")
+						img(src="images/main-slider/slide2.png" alt="")
+
+		include modules/script.pug

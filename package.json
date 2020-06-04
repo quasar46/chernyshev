@@ -19,6 +19,7 @@
     "autoprefixer": "^9.7.6",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-csso": "^4.0.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
@@ -34,6 +35,7 @@
     "imagemin-optipng": "^7.1.0",
     "imagemin-svgo": "^7.1.0",
     "normalize.scss": "^0.1.0",
+    "postcss": "^7.0.32",
     "posthtml-include": "^1.4.1"
   }
 }

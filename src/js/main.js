@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$('.slick-slider').slick({
+	$('.slider-news').slick({
 		slidesToShow: 3,
 		centerMode: true,
 		arrows: true,
@@ -13,6 +13,16 @@ $(document).ready(function () {
 				}
 			}
 		]
+	})
+})
+
+$(document).ready(function() {
+	$('.slick-index').slick({
+		arrows: false,
+		dots: false,
+		speed: 900,
+		autoplay: true,
+		infinity: true
 	})
 })
 
